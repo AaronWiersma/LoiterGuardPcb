@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 154.94 84.455)
+		(size 36.195 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c228496-3bff-421c-a499-0957c9434e50")
+		(property "Sheetname" "MCU"
+			(at 154.94 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 154.94 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.945 88.265)
+		(size 27.94 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a4eaebf-f1c7-48f7-ac21-99f30bfdea80")
+		(property "Sheetname" "CAM"
+			(at 67.945 87.5534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ai-camera-rev3.kicad_sch"
+			(at 67.945 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 66.04)
+		(size 27.305 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2f59c2d-218e-461f-9eb8-2889c7b84a9c")
+		(property "Sheetname" "Poe"
+			(at 91.44 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-PoE2_Rev_B.kicad_sch"
+			(at 91.44 87.5796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
