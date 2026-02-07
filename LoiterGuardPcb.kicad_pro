@@ -480,8 +480,20 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+3.3VA": [
+      "+3V3": [
         "PWR"
+      ],
+      "+5V": [
+        "PWR"
+      ],
+      "+BATT": [
+        "PWR"
+      ],
+      "/CAM/UD+": [
+        "USB"
+      ],
+      "/CAM/UD-": [
+        "USB"
       ],
       "Net-(D10-A)": [
         "IRLED"
@@ -513,11 +525,35 @@
       "Net-(D17-K)": [
         "IRLED"
       ],
+      "Net-(D6-A)": [
+        "PWR"
+      ],
       "Net-(D8-A)": [
         "IRLED"
       ],
       "Net-(D8-K)": [
         "IRLED"
+      ],
+      "Net-(J2-VBUS-PadA4)": [
+        "PWR"
+      ],
+      "Net-(Q3-S)": [
+        "PWR"
+      ],
+      "Net-(Q6-S)": [
+        "PWR"
+      ],
+      "Net-(U10-VI)": [
+        "PWR"
+      ],
+      "Net-(U5-LX)": [
+        "PWR"
+      ],
+      "Net-(U7-VI)": [
+        "PWR"
+      ],
+      "VBUS": [
+        "PWR"
       ]
     },
     "netclass_patterns": []
@@ -663,8 +699,8 @@
       "MCU"
     ],
     [
-      "9a4eaebf-f1c7-48f7-ac21-99f30bfdea80",
-      "CAM"
+      "1b2c7ea2-5804-4535-a642-e14e277ed8ab",
+      "Outputs"
     ]
   ],
   "text_variables": {}
