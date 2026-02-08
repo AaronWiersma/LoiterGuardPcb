@@ -90,6 +90,56 @@
 		)
 	)
 	(sheet
+		(at 95.25 123.825)
+		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a14327da-148b-4200-a87d-3de130f2539d")
+		(property "Sheetname" "Expander"
+			(at 95.25 123.1134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "expander.kicad_sch"
+			(at 95.25 156.1596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 95.25 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 49.53)
 		(size 27.305 20.955)
 		(exclude_from_sim no)
