@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "80f06d3a-7ce5-451e-ae3b-efc628fdfe96")
+	(uuid "1268ac8b-c784-4fc3-a59c-bec52a2c7fb7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "5033981892:5033981892"
@@ -895,113 +895,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2221,12 +2114,6 @@
 		(uuid "ee4d82bf-7bea-4da5-8d54-161a7e37bceb")
 	)
 	(junction
-		(at 226.06 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0bc951a-6500-4957-8ad8-cf48beb38bcc")
-	)
-	(junction
 		(at 185.42 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2594,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 99.06) (xy 223.52 99.06)
+			(xy 223.52 99.06) (xy 237.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2734,16 +2621,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 226.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d64f50e0-9518-4bc9-96f9-779da9980b6c")
-	)
-	(wire
-		(pts
 			(xy 102.87 90.17) (xy 92.71 90.17)
 		)
 		(stroke
@@ -2812,16 +2689,6 @@
 		)
 		(uuid "e7dca325-a8d8-46ec-b397-6bfd82bd43a3")
 	)
-	(label "~{SD_CS}"
-		(at 232.41 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b04c900-6e9c-4990-8285-64d5b22d6672")
-	)
 	(label "SD_DETECT"
 		(at 237.49 99.06 180)
 		(effects
@@ -2831,17 +2698,6 @@
 			(justify right bottom)
 		)
 		(uuid "6d2969e2-de74-45ed-a580-06edd657fcc4")
-	)
-	(hierarchical_label "~{RSTn}"
-		(shape output)
-		(at 102.87 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0690ec0e-3ab7-4603-9f95-23f5455012a2")
 	)
 	(hierarchical_label "MM_SOP"
 		(shape input)
@@ -2865,6 +2721,17 @@
 		)
 		(uuid "0db5acd0-1869-4fe3-9e0a-4964b5d6fe83")
 	)
+	(hierarchical_label "DF_BUSY"
+		(shape input)
+		(at 102.87 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f33ee70-d79e-4723-9f95-5abf6cd2d85d")
+	)
 	(hierarchical_label "~{MM_RST}"
 		(shape input)
 		(at 102.87 74.93 0)
@@ -2887,6 +2754,17 @@
 		)
 		(uuid "3d6795c9-3069-4448-bcef-a6cbef5fc408")
 	)
+	(hierarchical_label "SPARE2"
+		(shape input)
+		(at 102.87 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48375616-24d0-4838-ac3c-5c15ad1d430d")
+	)
 	(hierarchical_label "CAM_SD_MOSI"
 		(shape input)
 		(at 232.41 82.55 0)
@@ -2897,6 +2775,17 @@
 			(justify left)
 		)
 		(uuid "6c838e86-b8c2-4e98-bcc5-5e93d21fae4f")
+	)
+	(hierarchical_label "SPARE1"
+		(shape input)
+		(at 102.87 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "795d91e1-4224-4545-9079-163c69f4a2be")
 	)
 	(hierarchical_label "CAM_SD_MISO"
 		(shape output)
@@ -2931,7 +2820,7 @@
 		)
 		(uuid "a9f33f9b-e0a9-4485-8189-6f00cef7453b")
 	)
-	(hierarchical_label "CAM_SD_SCK"
+	(hierarchical_label "CAM_SD_SCLK"
 		(shape input)
 		(at 232.41 86.36 0)
 		(effects
@@ -2963,6 +2852,28 @@
 			(justify left)
 		)
 		(uuid "cd5eb3d9-ecc5-400e-bef4-522aaa029e60")
+	)
+	(hierarchical_label "ETH_RST"
+		(shape input)
+		(at 102.87 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d517d52e-fae3-411d-9a58-03b76216a09e")
+	)
+	(hierarchical_label "~{SD_CS}"
+		(shape input)
+		(at 232.41 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dce235e8-ecb3-49bf-92a1-ba048e5d76fb")
 	)
 	(hierarchical_label "WD_DONE"
 		(shape output)
@@ -2996,7 +2907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ef709f-06a3-45fd-8dea-bd393e27c92c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0102"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -3046,7 +2957,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "#PWR049")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3061,7 +2972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "286a6fdb-a187-4c63-b4ec-0341ad3a4b60")
-		(property "Reference" "C27"
+		(property "Reference" "C59"
 			(at 85.344 46.736 90)
 			(effects
 				(font
@@ -3113,7 +3024,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "C27")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3128,7 +3039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2df9f1f5-a099-4a98-8839-9721eda0e097")
-		(property "Reference" "C32"
+		(property "Reference" "C61"
 			(at 181.61 77.47 0)
 			(effects
 				(font
@@ -3180,7 +3091,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "C32")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -3195,7 +3106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e0103e9-effc-41e0-8175-9897fd9766a2")
-		(property "Reference" "R65"
+		(property "Reference" "R63"
 			(at 220.218 98.044 0)
 			(effects
 				(font
@@ -3247,7 +3158,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "R65")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -3262,7 +3173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7204ce7d-a9c2-4d43-a48c-403200293806")
-		(property "Reference" "R29"
+		(property "Reference" "R61"
 			(at 209.804 68.834 0)
 			(effects
 				(font
@@ -3314,7 +3225,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "R29")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -3330,7 +3241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a14a396d-a58a-4371-bf26-057d32d282a9")
-		(property "Reference" "U5"
+		(property "Reference" "U12"
 			(at 77.0733 57.15 0)
 			(effects
 				(font
@@ -3467,7 +3378,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "U5")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60b3e39-c60b-4a89-be6f-78c8bdcc941e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0101"
 			(at 74.93 52.07 0)
 			(effects
 				(font
@@ -3533,7 +3444,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "#PWR046")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7ff4ab9-03b6-4fdd-bb3d-290d6e60c5dd")
-		(property "Reference" "C28"
+		(property "Reference" "C60"
 			(at 173.99 77.47 0)
 			(effects
 				(font
@@ -3600,7 +3511,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "C28")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aee54105-f9e0-46a8-8f42-e1f3f5312310")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0104"
 			(at 177.8 90.17 0)
 			(effects
 				(font
@@ -3665,7 +3576,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "#PWR063")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -3680,7 +3591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b994d988-20c9-42be-a7db-fa3864bf46da")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 219.202 69.596 0)
 			(effects
 				(font
@@ -3732,7 +3643,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6844c2c-6e24-4401-8569-5701fd0511a7")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 199.898 68.834 0)
 			(effects
 				(font
@@ -3825,7 +3736,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3840,7 +3751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d877520a-f38a-4d7d-8030-09449c52d898")
-		(property "Reference" "R66"
+		(property "Reference" "R64"
 			(at 229.362 69.596 0)
 			(effects
 				(font
@@ -3892,7 +3803,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "R66")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -3908,7 +3819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf1bbad-8082-404f-aa1f-9be183e3dba3")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0103"
 			(at 177.8 69.85 0)
 			(effects
 				(font
@@ -3958,7 +3869,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "#PWR089")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3974,7 +3885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd280064-d787-4d63-af4f-501056d22a4a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0100"
 			(at 50.8 127 0)
 			(effects
 				(font
@@ -4024,74 +3935,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 226.06 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7eb7f1e-e346-4bc5-a4ca-7b3b3bac7875")
-		(property "Reference" "TP4"
-			(at 224.282 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 228.6 103.6319 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 220.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 226.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7aa39e8b-5308-441e-b92e-269a99286c43")
-		)
-		(instances
-			(project "LoiterGuardPcb"
-				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/a14327da-148b-4200-a87d-3de130f2539d"
-					(reference "TP4")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)

@@ -1157,6 +1157,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "87898-0204:878980204"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "878980204"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "87898-0204_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/878980204?display=pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "878980204"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "87898-0204_MOL 87898-0204_MOL-M 87898-0204_MOL-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "878980204_0_1"
+				(polyline
+					(pts
+						(xy 16.51 3.175) (xy 16.51 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -1.905) (xy 22.86 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 3.175) (xy 16.51 3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -1.905) (xy 22.86 3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "B16B-PH-SM4-TB_LF__SN_:B16B-PH-SM4-TB_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3549,6 +3715,16 @@
 		)
 		(uuid "3dacbdba-0a72-44c4-a143-539c1312bce7")
 	)
+	(text "Remove R90 and R92 to use debugger USB+/-"
+		(exclude_from_sim no)
+		(at 160.782 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77502d8a-462d-44df-9d51-f98ada7ebee2")
+	)
 	(text "12V Piezo Buzzer\n(Max 12W)"
 		(exclude_from_sim no)
 		(at 115.316 43.942 0)
@@ -3728,6 +3904,16 @@
 			(type default)
 		)
 		(uuid "23ac3369-575b-4743-b0a1-ddfb83eea08f")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 167.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2570f8a5-a050-4573-bb50-2d4ae94dce7c")
 	)
 	(wire
 		(pts
@@ -3938,6 +4124,16 @@
 			(type default)
 		)
 		(uuid "687bb273-cd7f-46da-a428-649ceece670f")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6908a39c-e122-48a7-bdd1-eb46b1cb1b13")
 	)
 	(wire
 		(pts
@@ -4502,6 +4698,17 @@
 		)
 		(uuid "2270986c-f30a-44c6-9e35-2b640ef66ac6")
 	)
+	(hierarchical_label "STROBE{slash}USB+"
+		(shape input)
+		(at 205.74 64.77 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24200528-75a0-4dde-9b7c-2e1e3d32c930")
+	)
 	(hierarchical_label "LED1"
 		(shape input)
 		(at 220.98 110.49 180)
@@ -4523,6 +4730,17 @@
 			(justify right)
 		)
 		(uuid "35db0f1c-72b4-43a6-97f0-3e42487f400a")
+	)
+	(hierarchical_label "BUZZ{slash}USB-"
+		(shape input)
+		(at 156.21 64.77 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f47d3a5-5acd-4ba2-92ed-e25ce29aa853")
 	)
 	(hierarchical_label "CAM_SD_MOSI"
 		(shape output)
@@ -4645,17 +4863,6 @@
 		)
 		(uuid "a1cc77e8-c04c-404a-b03e-e9cd2bc95969")
 	)
-	(hierarchical_label "STROBE"
-		(shape input)
-		(at 205.74 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1d34a55-12d2-405f-9bf2-1739ac18c52a")
-	)
 	(hierarchical_label "~{MM_RST}"
 		(shape input)
 		(at 226.06 43.18 180)
@@ -4666,6 +4873,28 @@
 			(justify right)
 		)
 		(uuid "a46ecedf-1f61-4562-8a4c-efa33e7d7730")
+	)
+	(hierarchical_label "BUZZ{slash}USB-"
+		(shape input)
+		(at 146.05 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7e680e4-b41f-4346-8c00-26bf4bb6c775")
+	)
+	(hierarchical_label "STROBE{slash}USB+"
+		(shape input)
+		(at 167.64 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac93ce0c-fae1-43c3-8cd7-3e209ba5b17e")
 	)
 	(hierarchical_label "DF_RX"
 		(shape input)
@@ -4711,17 +4940,6 @@
 		)
 		(uuid "e5edd443-bf94-4c7a-a7bb-5fc496b6961e")
 	)
-	(hierarchical_label "BUZZ"
-		(shape input)
-		(at 156.21 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e60ef349-f8c8-4da7-af5d-c6fb6cfc19a6")
-	)
 	(hierarchical_label "LED3"
 		(shape input)
 		(at 220.98 115.57 180)
@@ -4743,7 +4961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09970c76-50d0-4c28-8b88-b0661e114c06")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0112"
 			(at 180.34 26.67 0)
 			(effects
 				(font
@@ -4793,7 +5011,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0192")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4809,7 +5027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11775d8c-68bc-42ee-84d3-f4541e7fd6d9")
-		(property "Reference" "U19"
+		(property "Reference" "U13"
 			(at 67.31 35.56 0)
 			(effects
 				(font
@@ -4964,7 +5182,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "U19")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -4980,7 +5198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "209ac04e-49b1-42b1-8b68-5b0e1aa1ffea")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0115"
 			(at 220.98 96.52 0)
 			(effects
 				(font
@@ -5030,7 +5248,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0194")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -5046,7 +5264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb58d1b-d94b-46ad-a250-b13908b32ead")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0111"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -5096,7 +5314,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0184")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -5112,7 +5330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d7092c3-4a14-4e41-afb4-fb50a1b0b9ea")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0116"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -5163,7 +5381,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0195")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -5179,7 +5397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c094ca6-76ef-4b8c-bb57-d2805d42e1f1")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0113"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -5229,7 +5447,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0193")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5433,7 +5651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541924a3-3f5c-4246-afa8-b1276e08347a")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0107"
 			(at 91.44 38.1 0)
 			(effects
 				(font
@@ -5483,7 +5701,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR051")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -5499,7 +5717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63720bfb-2a8e-47f6-a95b-cdddb0f91f01")
-		(property "Reference" "R92"
+		(property "Reference" "R68"
 			(at 199.39 58.42 90)
 			(effects
 				(font
@@ -5551,7 +5769,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "R92")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -5567,7 +5785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63dbd033-36e1-49e2-8cb5-a691adbaf008")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 164.7031 60.96 0)
 			(effects
 				(font
@@ -5630,7 +5848,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64602e28-8e5a-4414-a003-514bbaa3e36e")
-		(property "Reference" "C44"
+		(property "Reference" "C63"
 			(at 187.706 22.86 90)
 			(effects
 				(font
@@ -5698,7 +5916,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "C44")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -5714,7 +5932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b956b48-b3bf-489c-8eab-65fcf839493b")
-		(property "Reference" "R89"
+		(property "Reference" "R65"
 			(at 146.05 71.1199 0)
 			(effects
 				(font
@@ -5768,7 +5986,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "R89")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -5784,7 +6002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87d0fd43-a8c8-4737-85ba-a719a81ed633")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 50.165 142.24 0)
 			(effects
 				(font
@@ -5889,7 +6107,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5904,7 +6122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cf22793-9af0-4a93-9269-ee8baf301bb0")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0120"
 			(at 234.95 66.04 0)
 			(effects
 				(font
@@ -5954,7 +6172,77 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0199")
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "87898-0204:878980204")
+		(at 176.53 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97964ef7-117d-4a9b-b5c5-13e0728a5b13")
+		(property "Reference" "J10"
+			(at 156.845 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "878980204"
+			(at 156.845 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "87898-0204:87898-0204_MOL"
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/878980204?display=pdf"
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f9d5a8f-a84e-4fc6-8844-88c44e815f58")
+		)
+		(pin "2"
+			(uuid "5631bcc7-d61d-4b13-9710-f0b8624183e1")
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5970,7 +6258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5bb97e-a434-4a4f-ac2d-8ac95f6db13c")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0119"
 			(at 234.95 27.94 0)
 			(effects
 				(font
@@ -6020,7 +6308,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0198")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -6036,7 +6324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f9177da-34f5-47e7-905f-d5cb7e7d9ce9")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0109"
 			(at 114.3 39.37 0)
 			(effects
 				(font
@@ -6086,7 +6374,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR079")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -6254,7 +6542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea77197-fa43-4a72-8061-13f5b2b598bd")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0108"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -6304,7 +6592,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0177")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6320,7 +6608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c9011c-89b2-4d57-9da3-236a54c568dc")
-		(property "Reference" "R91"
+		(property "Reference" "R67"
 			(at 195.58 71.1199 0)
 			(effects
 				(font
@@ -6374,7 +6662,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "R91")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -6390,7 +6678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce4be8d-d270-4034-a373-d82523710968")
-		(property "Reference" "R90"
+		(property "Reference" "R66"
 			(at 149.86 58.42 90)
 			(effects
 				(font
@@ -6442,7 +6730,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "R90")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -6551,7 +6839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf6ec45e-c5ff-4d96-8c40-a10ebf6951e6")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0117"
 			(at 224.79 102.87 0)
 			(effects
 				(font
@@ -6602,7 +6890,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0196")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6617,7 +6905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1630620-a640-41db-8ce2-567ac8ac692b")
-		(property "Reference" "C39"
+		(property "Reference" "C62"
 			(at 123.444 22.86 90)
 			(effects
 				(font
@@ -6669,7 +6957,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "C39")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -6685,7 +6973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4db94b8-40c4-4192-9e47-ba65a1eb671c")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0110"
 			(at 130.81 26.67 0)
 			(effects
 				(font
@@ -6735,7 +7023,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0183")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6752,7 +7040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b14512-9769-4f76-a7c0-508198237072")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0114"
 			(at 196.85 39.37 0)
 			(effects
 				(font
@@ -6802,7 +7090,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR080")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -6897,7 +7185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f644a486-845a-4854-9143-367a845a7a95")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0118"
 			(at 220.98 147.32 0)
 			(effects
 				(font
@@ -6947,7 +7235,7 @@
 		(instances
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR0197")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6963,7 +7251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce38e41-eb3a-41ab-a947-daa0473e289a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0105"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7013,7 +7301,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR052")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7029,7 +7317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce93dc5-1a36-4b9c-9733-0a08d8b850f7")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 25.0031 60.96 0)
 			(effects
 				(font
@@ -7092,7 +7380,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff37e9d0-011a-46c3-b201-3f51e6e7b9de")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0106"
 			(at 67.31 158.75 0)
 			(effects
 				(font
@@ -7158,7 +7446,7 @@
 		(instances
 			(project ""
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/1b2c7ea2-5804-4535-a642-e14e277ed8ab"
-					(reference "#PWR053")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
