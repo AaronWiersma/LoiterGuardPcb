@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -512,19 +512,51 @@
     "netclass_patterns": [
       {
         "netclass": "ETH_DIFF",
-        "pattern": "/Poe/TX_N"
+        "pattern": "/Poe/TX1_N"
       },
       {
         "netclass": "ETH_DIFF",
-        "pattern": "/Poe/TX_P"
+        "pattern": "/Poe/TX1_P"
       },
       {
         "netclass": "ETH_DIFF",
-        "pattern": "/Poe/RX_N"
+        "pattern": "/Poe/RX1_N"
       },
       {
-        "netclass": "Default",
-        "pattern": "/Poe/RX_P"
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/RX1_P"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/TX2_N"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/RX2_N"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/TX2_P"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/RX2_P"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/TX3_N"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/RX3_N"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/TX3_P"
+      },
+      {
+        "netclass": "ETH_DIFF",
+        "pattern": "/Poe/RX3_P"
       }
     ]
   },

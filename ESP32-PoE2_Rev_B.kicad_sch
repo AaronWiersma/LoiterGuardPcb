@@ -1506,6 +1506,42 @@
 						)
 					)
 				)
+				(pin input line
+					(at 26.67 8.89 180)
+					(length 3.81)
+					(name "CHGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 26.67 -31.75 180)
+					(length 3.81)
+					(name "CHGND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "ARJM11D7-114-AB-EW2_1_2"
 				(polyline
@@ -4149,6 +4185,113 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -9003,6 +9146,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bus_alias "Main_BUS"
 		(members "GPIO0" "GPIO1\\U0TXD" "GPIO2\\HS2_DATA0" "GPIO3\\U0RXD" "GPIO4\\U1TXD"
@@ -9462,6 +9778,12 @@
 		(uuid "2b815b6c-6bc0-497d-b47f-2482dd9d3001")
 	)
 	(junction
+		(at 571.5 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32dc9650-815c-4e9b-985d-342a64812e80")
+	)
+	(junction
 		(at 463.55 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9508,6 +9830,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "419783fd-1d28-46e1-866f-96ceb58e66fb")
+	)
+	(junction
+		(at 571.5 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "458abba9-7588-4362-bb83-a1bbca0d127a")
 	)
 	(junction
 		(at 110.49 203.2)
@@ -9646,6 +9974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e17849b-0923-4500-936a-99035877cf4b")
+	)
+	(junction
+		(at 567.69 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fa63b9b-c9a4-474a-8893-90a7626e7237")
 	)
 	(junction
 		(at 173.99 63.5)
@@ -9820,6 +10154,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e257a19-1eed-4956-ab55-56586c3be608")
+	)
+	(junction
+		(at 571.5 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8402465-fa0b-429c-b9b5-24fbb90d2985")
 	)
 	(junction
 		(at 196.85 63.5)
@@ -10785,6 +11125,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 53.34) (xy 571.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ec8a82-5035-48a5-9b41-c3b45754fed3")
+	)
+	(wire
+		(pts
 			(xy 189.23 254) (xy 189.23 256.54)
 		)
 		(stroke
@@ -11002,6 +11352,16 @@
 			(type default)
 		)
 		(uuid "34fc9bcf-9dde-48ba-bcee-747e647a0e0e")
+	)
+	(wire
+		(pts
+			(xy 562.61 57.15) (xy 562.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36045e32-53ea-4c9f-b30d-84f86f9f76d9")
 	)
 	(wire
 		(pts
@@ -11395,6 +11755,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 72.39) (xy 567.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a0a552-955e-4037-be15-1cb6e8a819c3")
+	)
+	(wire
+		(pts
 			(xy 92.71 71.12) (xy 92.71 77.47)
 		)
 		(stroke
@@ -11622,6 +11992,16 @@
 			(type default)
 		)
 		(uuid "5991d068-2d41-4978-822e-33d714fa7012")
+	)
+	(wire
+		(pts
+			(xy 567.69 72.39) (xy 571.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5993de4d-8548-48e5-b9fa-75d7693089e4")
 	)
 	(wire
 		(pts
@@ -12155,6 +12535,16 @@
 	)
 	(wire
 		(pts
+			(xy 571.5 53.34) (xy 571.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75993f21-aec7-488e-8c42-285390785ced")
+	)
+	(wire
+		(pts
 			(xy 217.17 196.85) (xy 217.17 200.66)
 		)
 		(stroke
@@ -12162,6 +12552,16 @@
 			(type default)
 		)
 		(uuid "75c9e881-12ac-4e70-8161-170fa248f354")
+	)
+	(wire
+		(pts
+			(xy 562.61 113.03) (xy 567.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761daaa3-4297-4268-bc35-215058c47198")
 	)
 	(wire
 		(pts
@@ -12282,6 +12682,16 @@
 			(type default)
 		)
 		(uuid "7a486789-c2cc-4ff6-adec-ebf5c71b8004")
+	)
+	(wire
+		(pts
+			(xy 476.25 99.06) (xy 495.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abfc8c3-28c5-45f3-bc6b-d771c5d2a69f")
 	)
 	(wire
 		(pts
@@ -12882,6 +13292,16 @@
 			(type default)
 		)
 		(uuid "9d453fa7-3cfb-49fa-b1d9-930984dfda4f")
+	)
+	(wire
+		(pts
+			(xy 571.5 68.58) (xy 571.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d534846-06fb-4815-884a-44e25cd1582c")
 	)
 	(wire
 		(pts
@@ -13512,16 +13932,6 @@
 			(type default)
 		)
 		(uuid "c2c38af5-1ef6-4685-b3da-b4506971916f")
-	)
-	(wire
-		(pts
-			(xy 495.3 99.06) (xy 476.25 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34775bb-8f66-41e2-98e6-f5a805c2f10b")
 	)
 	(wire
 		(pts
@@ -14175,6 +14585,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 64.77) (xy 562.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5537fa4-286c-4a99-8645-27d1b392bcc0")
+	)
+	(wire
+		(pts
 			(xy 146.05 195.58) (xy 148.59 195.58)
 		)
 		(stroke
@@ -14545,6 +14965,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 68.58) (xy 571.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5afce6e-b2eb-4ddd-8aa5-8acd57259777")
+	)
+	(wire
+		(pts
 			(xy 421.64 128.27) (xy 427.99 128.27)
 		)
 		(stroke
@@ -14645,6 +15075,26 @@
 	)
 	(wire
 		(pts
+			(xy 571.5 64.77) (xy 571.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8a8eaf-3c48-4e47-a695-8750a12986cc")
+	)
+	(wire
+		(pts
+			(xy 571.5 72.39) (xy 575.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6f74c2-1643-4b58-a54c-f39f805a0a4e")
+	)
+	(wire
+		(pts
 			(xy 429.26 304.8) (xy 429.26 302.26)
 		)
 		(stroke
@@ -14742,6 +15192,16 @@
 			(type default)
 		)
 		(uuid "ffac22a6-8161-42c8-b057-39dfad641eb3")
+	)
+	(wire
+		(pts
+			(xy 571.5 49.53) (xy 571.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffaf2a96-5f6d-4922-8d20-97f3c1b3c402")
 	)
 	(wire
 		(pts
@@ -14964,7 +15424,7 @@
 		(uuid "f7fa63ec-9052-4796-82d9-c777953b1934")
 	)
 	(label "RX2_P"
-		(at 481.33 99.06 0)
+		(at 478.79 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16672,6 +17132,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 571.5 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b98b537-e70a-461a-b7aa-4f194c94a17c")
+		(property "Reference" "C64"
+			(at 574.802 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 574.548 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 572.4652 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 571.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 571.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5d38d27-353f-4b0b-8b23-66cb303c0123")
+		)
+		(pin "2"
+			(uuid "be81448a-9404-4083-a8f2-380cd9f5cf3a")
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OLIMEX_RCL:R")
 		(at 187.96 215.9 180)
 		(unit 1)
@@ -18219,7 +18748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ARJM11D7_114_AB_EW2:CONN_ARJM11D7-114-AB-EW2_ABR"
+		(property "Footprint" "CONN_ARJM11D7-114-AB-EW2_ABR"
 			(at 535.94 81.28 0)
 			(effects
 				(font
@@ -18289,6 +18818,12 @@
 		)
 		(pin "14"
 			(uuid "ecbe0b2a-256a-4066-b0c8-90002b2cee98")
+		)
+		(pin "15"
+			(uuid "0b071a21-5ffc-4def-94c8-65764ef8f6a7")
+		)
+		(pin "16"
+			(uuid "97ba8793-f4d9-438d-b11f-ed72d6db1312")
 		)
 		(instances
 			(project ""
@@ -19169,6 +19704,72 @@
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 567.69 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "51920a38-d410-49cd-8798-9ca1ae56abcc")
+		(property "Reference" "H1"
+			(at 567.436 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 561.34 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopOnly"
+			(at 567.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 567.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 567.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b81b3ce-5e17-4ffb-8909-a7443459d64a")
+		)
+		(instances
+			(project ""
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -23094,6 +23695,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 562.61 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f9daa7a-df41-4a9c-9253-04e560a11bfd")
+		(property "Reference" "R69"
+			(at 558.546 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 558.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 564.388 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 562.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 562.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ca786ad-369d-430d-aad7-47ed14ead780")
+		)
+		(pin "2"
+			(uuid "e4a06e74-2049-4344-acc3-8742d3495d0b")
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 486.41 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23977,6 +24645,72 @@
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 575.31 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a60ec413-df5e-46dd-97a0-7dc430e2f99d")
+		(property "Reference" "#PWR0121"
+			(at 575.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 575.183 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 575.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 575.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 575.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2854c20d-2071-47bc-b81b-5d6f1b8c020b")
+		)
+		(instances
+			(project ""
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -25299,6 +26033,72 @@
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 567.69 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baa32b76-34bb-4d9f-80c2-37ab2c7133c5")
+		(property "Reference" "#PWR0122"
+			(at 567.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 567.563 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 567.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 567.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 567.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af27c832-ea7f-4119-978f-fef53c2f6962")
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -27968,6 +28768,71 @@
 			(project "LoiterGuardPcb"
 				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 571.5 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edbd4cea-7956-4735-95bd-6023c590fafb")
+		(property "Reference" "#PWR0123"
+			(at 571.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 571.246 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 571.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 571.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 571.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a9d2c6b-acb0-4ade-8966-fac5bc254545")
+		)
+		(instances
+			(project "LoiterGuardPcb"
+				(path "/e0fc1b62-e519-47f0-a0fc-4ac6dbab9b04/c2f59c2d-218e-461f-9eb8-2889c7b84a9c"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
