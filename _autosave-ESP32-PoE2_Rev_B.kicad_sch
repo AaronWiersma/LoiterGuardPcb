@@ -12285,6 +12285,16 @@
 	)
 	(wire
 		(pts
+			(xy 476.25 99.06) (xy 495.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abfc8c3-28c5-45f3-bc6b-d771c5d2a69f")
+	)
+	(wire
+		(pts
 			(xy 467.36 52.07) (xy 467.36 54.61)
 		)
 		(stroke
@@ -13512,16 +13522,6 @@
 			(type default)
 		)
 		(uuid "c2c38af5-1ef6-4685-b3da-b4506971916f")
-	)
-	(wire
-		(pts
-			(xy 495.3 99.06) (xy 476.25 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34775bb-8f66-41e2-98e6-f5a805c2f10b")
 	)
 	(wire
 		(pts
@@ -14964,7 +14964,7 @@
 		(uuid "f7fa63ec-9052-4796-82d9-c777953b1934")
 	)
 	(label "RX2_P"
-		(at 481.33 99.06 0)
+		(at 478.79 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
